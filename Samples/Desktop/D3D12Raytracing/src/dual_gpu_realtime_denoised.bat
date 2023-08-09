@@ -1,0 +1,2 @@
+START "test0" /D D3D12RaytracingRealTimeDenoisedAmbientOcclusion bin\x64\Debug\D3D12RaytracingRealTimeDenoisedAmbientOcclusion.exe -forceAdapter 0
+START "test1" /D D3D12RaytracingRealTimeDenoisedAmbientOcclusion bin\x64\Debug\D3D12RaytracingRealTimeDenoisedAmbientOcclusion.exe -forceAdapter 1
