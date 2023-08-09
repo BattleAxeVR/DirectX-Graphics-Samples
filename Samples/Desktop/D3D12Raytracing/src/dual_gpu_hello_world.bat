@@ -1,0 +1,2 @@
+START "test0" /D D3D12RaytracingHelloWorld\bin\x64\Debug D3D12RaytracingHelloWorld.exe -forceAdapter 0
+START "test1" /D D3D12RaytracingHelloWorld\bin\x64\Debug D3D12RaytracingHelloWorld.exe -forceAdapter 1
