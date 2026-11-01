@@ -109,7 +109,6 @@
     <None Include="Shaders\Lighting.hlsli">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Shaders\DefaultVS.hlsl">
