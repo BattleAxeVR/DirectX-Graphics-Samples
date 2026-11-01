@@ -15,34 +15,94 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp"><Filter>Source Files</Filter></ClCompile>
-    <ClCompile Include="D3D12RaytracingClusteredGeometry.cpp"><Filter>Source Files</Filter></ClCompile>
-    <ClCompile Include="stdafx.cpp"><Filter>Source Files</Filter></ClCompile>
-    <ClCompile Include="DeviceResources.cpp"><Filter>Framework</Filter></ClCompile>
-    <ClCompile Include="Win32Application.cpp"><Filter>Framework</Filter></ClCompile>
-    <ClCompile Include="DXSample.cpp"><Filter>Framework</Filter></ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12RaytracingClusteredGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Application.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSample.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayUI.cpp" />
+    <ClCompile Include="ScenePopulation.cpp" />
+    <ClCompile Include="SceneSetup.cpp" />
+    <ClCompile Include="InputHandling.cpp" />
+    <ClCompile Include="MaterialData.cpp" />
+    <ClCompile Include="SceneData.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D3D12RaytracingClusteredGeometry.h"><Filter>Header Files</Filter></ClInclude>
-    <ClInclude Include="HlslCompat.h"><Filter>Header Files</Filter></ClInclude>
-    <ClInclude Include="ProceduralGeometry.h"><Filter>Header Files</Filter></ClInclude>
-    <ClInclude Include="Compressed1.h"><Filter>Header Files</Filter></ClInclude>
-    <ClInclude Include="RaytracingHlslCompat.h"><Filter>Header Files</Filter></ClInclude>
-    <ClInclude Include="SampleLog.h"><Filter>Header Files</Filter></ClInclude>
-    <ClInclude Include="stdafx.h"><Filter>Header Files</Filter></ClInclude>
-    <ClInclude Include="DeviceResources.h"><Filter>Framework</Filter></ClInclude>
-    <ClInclude Include="DirectXRaytracingHelper.h"><Filter>Framework</Filter></ClInclude>
-    <ClInclude Include="DXSample.h"><Filter>Framework</Filter></ClInclude>
-    <ClInclude Include="DXSampleHelper.h"><Filter>Framework</Filter></ClInclude>
-    <ClInclude Include="StepTimer.h"><Filter>Framework</Filter></ClInclude>
-    <ClInclude Include="Win32Application.h"><Filter>Framework</Filter></ClInclude>
+    <ClInclude Include="D3D12RaytracingClusteredGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HlslCompat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Compressed1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RaytracingHlslCompat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXRaytracingHelper.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSample.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSampleHelper.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Application.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCommon.h" />
+    <ClInclude Include="SceneData.h" />
+    <ClInclude Include="MaterialData.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="Raytracing.hlsl"><Filter>Shaders</Filter></CustomBuild>
-    <CustomBuild Include="RaytracingTraditional.hlsl"><Filter>Shaders</Filter></CustomBuild>
+    <CustomBuild Include="Raytracing.hlsl">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RaytracingTraditional.hlsl">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnimateBall.hlsl" />
+    <CustomBuild Include="FillInstantiateArgs.hlsl" />
+    <CustomBuild Include="FillMoveClusterArgs.hlsl" />
+    <CustomBuild Include="FillBlasFromClasArgs.hlsl" />
+    <CustomBuild Include="FillClasFromTrianglesArgs.hlsl" />
+    <CustomBuild Include="FillClusterTemplateArgs.hlsl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="readme.md" />
+    <None Include="AnimatedSphere.hlsli" />
+    <None Include="tests\ProceduralGeometryTests.cpp" />
+    <None Include="SegoeUI_24.spritefont" />
   </ItemGroup>
 </Project>
